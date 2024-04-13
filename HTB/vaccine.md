@@ -133,7 +133,7 @@ sudo vi /bin/vi /etc/postgresql/11/main/pg_hba.conf
 root権限でviを使える。権限昇格のバイブル、[GTFObin](https://gtfobins.github.io/gtfobins/vi/#sudo)をチェック。  
 viで開いたら、:set shell=/bin/shと:shellを書き込んでwqで保存するだけぽい。  
    
-そんなこんなでrootとれた。
+そんなこんなでrootとれた。  
 ![alt text](image-12.png)  
   
 もうrootなんであとはなんでもできる。フラグを探して終わり。  
